@@ -1,4 +1,4 @@
-package ru.gb.jtwo.lone.online.circles;
+package Circles;
 
 import javax.swing.*;
 import java.awt.*;
@@ -14,7 +14,7 @@ public class MainCircles extends JFrame {
     private final int MAXBALLS = 1000;  // максимально возможное количество шаров
     private Ball[] Balls = new Ball[MAXBALLS];   //изменил Sprites на конкретно шарики, посколько у меня уже 2 класса наследников от Sprite
     private int currentLength = 10;  // стартовое количество шаров
-    private Background backGround = new Background();  // добавление отдельного объекта Бэкграунд
+    private Background backGround = new Background();  // добавление отдельного объекта Бэкграунд!!!
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {

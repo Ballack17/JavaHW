@@ -1,4 +1,4 @@
-package ru.gb.jtwo.lone.online.circles;
+package Circles;
 
 import java.awt.*;
 
